@@ -1,0 +1,5 @@
+[rabbitmq_rabbitmq-server]
+name=rabbitmq_rabbitmq-server
+baseurl=https://packagecloud.io/rabbitmq/rabbitmq-server/el/8/$basearch
+gpgcheck=1
+enabled=0
