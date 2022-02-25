@@ -17,8 +17,8 @@ installation steps for RHEL 7-8 with python publisher and consumer example.
 	
 	* if you are working with local repos, you have to download erlang rpm package before 'yum install' step.
 	   $ sudo yum install epel-release
-   $ wget https://packages.erlang-solutions.com/erlang-solutions-1.0-1.noarch.rpm
-   $ sudo rpm -Uvh erlang-solutions-1.0-1.noarch.rpm
+   	$ wget https://packages.erlang-solutions.com/erlang-solutions-1.0-1.noarch.rpm
+   	$ sudo rpm -Uvh erlang-solutions-1.0-1.noarch.rpm
 	   $ yum install erlang
 	
 	4- First we'll update our yum repos.
