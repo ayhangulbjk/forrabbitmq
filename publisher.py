@@ -2,7 +2,7 @@
 import pika
 
 connection = pika.BlockingConnection(
-pika.ConnectionParameters(host='10.220.13.31'))
+pika.ConnectionParameters(host='localhost'))
 channel = connection.channel()
 channel.queue_declare(queue='firstqueue')
 channel.basic_publish(exchange='', routing_key='firstqueue', body='Hello, this is second message!')
